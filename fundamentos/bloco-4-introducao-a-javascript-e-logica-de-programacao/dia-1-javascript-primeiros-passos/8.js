@@ -1,5 +1,5 @@
 const a = 3
-const b = 7
+const b = 9
 const c = 5
 let div1 = a%2
 let div2 = b%2
