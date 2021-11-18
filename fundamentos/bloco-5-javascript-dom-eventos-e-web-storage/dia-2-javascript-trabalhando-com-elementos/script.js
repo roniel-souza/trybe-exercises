@@ -51,6 +51,9 @@ for (index = 1; index <= 3; index += 1){
     main.appendChild(h2);
 }
 
+//Exercício 1
+h1.className = 'title';
+
 
 
 
