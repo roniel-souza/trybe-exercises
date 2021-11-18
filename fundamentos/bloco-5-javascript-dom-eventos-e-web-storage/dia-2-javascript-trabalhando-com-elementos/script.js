@@ -47,15 +47,18 @@ for (let index = 0; index < numeros.length; index += 1){
 
 //Exercício 9
 for (index = 1; index <= 3; index += 1){
-    let h2 = document.createElement('h2');
-    main.appendChild(h2);
+    let h3 = document.createElement('h3');
+    main.appendChild(h3);
 }
 
 //Exercício 1
 h1.className = 'title';
 
-
-
+//Exercício 2
+h3 = document.getElementsByTagName('h3');
+for (let index = 0; index < h3.length; index +=  1){
+    h3[index].className ='description';
+}
 
 
 
