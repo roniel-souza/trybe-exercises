@@ -35,6 +35,16 @@ img.className = 'small-image';
 section2.appendChild(img);
 
 //Exercício 8
+let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+let ul = document.createElement('ul');
+section3.appendChild(ul);
+for (let index = 0; index < numeros.length; index += 1){
+    let item = numeros[index];
+    let numerosLista = document.createElement('li');
+    numerosLista.innerText = item;
+    section3.appendChild(numerosLista);
+}
+
 
 
 
