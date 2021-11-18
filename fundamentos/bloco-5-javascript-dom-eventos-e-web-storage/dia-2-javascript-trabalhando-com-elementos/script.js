@@ -60,5 +60,9 @@ for (let index = 0; index < h3.length; index +=  1){
     h3[index].className ='description';
 }
 
+//Exercício 3
+main.removeChild(section2);
+console.log(main);
+
 
 
