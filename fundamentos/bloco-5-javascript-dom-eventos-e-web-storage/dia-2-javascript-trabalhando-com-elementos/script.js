@@ -45,6 +45,13 @@ for (let index = 0; index < numeros.length; index += 1){
     section3.appendChild(numerosLista);
 }
 
+//Exercício 9
+for (index = 1; index <= 3; index += 1){
+    let h2 = document.createElement('h2');
+    main.appendChild(h2);
+}
+
+
 
 
 
