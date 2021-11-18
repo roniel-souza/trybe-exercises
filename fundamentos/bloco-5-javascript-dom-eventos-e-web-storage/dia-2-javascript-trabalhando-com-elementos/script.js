@@ -42,7 +42,7 @@ for (let index = 0; index < numeros.length; index += 1){
     let item = numeros[index];
     let numerosLista = document.createElement('li');
     numerosLista.innerText = item;
-    section3.appendChild(numerosLista);
+    ul.appendChild(numerosLista);
 }
 
 //Exercício 9
@@ -64,5 +64,23 @@ for (let index = 0; index < h3.length; index +=  1){
 main.removeChild(section2);
 console.log(main);
 
+//Exercício 4
+section3.style.marginRight='auto';
 
+//Exercício 5
+section.style.backgroundColor='green';
 
+//Exercício 6
+let elementosLista = document.getElementsByTagName('li');
+for (let index = 0; index < elementosLista.length; index += 1){
+    let element = elementosLista[index];
+    if (element.innerText.includes('nove')){
+        ul.removeChild(element);
+    }
+};
+for (let index = 0; index < elementosLista.length; index += 1){
+    let element = elementosLista[index];
+    if (element.innerText.includes('dez')){
+        ul.removeChild(element);
+    }
+};
