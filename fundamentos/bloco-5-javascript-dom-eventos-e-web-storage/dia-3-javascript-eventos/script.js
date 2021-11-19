@@ -43,4 +43,14 @@ function createDaysOfTheWeek() {
       }  
 }
 diasDoCalendario (dezDaysList);
-console.log(document.getElementById('days'));
+// Questão 2
+function botao (string) {
+    let tagBotao = document.createElement('button');
+    tagBotao.id = 'btn-holiday';
+    let pai = document.getElementsByClassName('buttons-container')[0];
+    pai.appendChild(tagBotao);
+    tagBotao.innerText = string;
+}
+botao ('Feriados');
+
+
